@@ -1,0 +1,656 @@
+[21:34:29] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:34:29] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[21:34:29] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_25, running on Windows 10:amd64:10.0, installed at C:\Users\Bryce\Documents\Minecraft\runtime\jre-x64\1.8.0_25
+[21:34:29] [main/DEBUG] [FML/]: Java classpath at launch is C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1558-1.7.10\forge-1.7.10-10.13.4.1558-1.7.10.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;C:\Users\Bryce\AppData\Roaming\.minecraft\versions\1.7.10\1.7.10.jar
+[21:34:29] [main/DEBUG] [FML/]: Java library path at launch is C:\Users\Bryce\AppData\Roaming\.minecraft\versions\1.7.10-Forge10.13.4.1558-1.7.10\1.7.10-Forge10.13.4.1558-1.7.10-natives-15762739187279
+[21:34:29] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:34:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:34:29] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:34:29] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:34:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:34:29] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:34:29] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:34:29] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:34:29] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Bryce\AppData\Roaming\.minecraft
+[21:34:29] [main/DEBUG] [FML/]: Discovering coremods
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]ArmorStatusHUD-client-1.28.jar
+[21:34:29] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]ArmorStatusHUD-client-1.28.jar
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]bspkrsCore-universal-6.16.jar
+[21:34:29] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]bspkrsCore-universal-6.16.jar
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]DirectionHUD-client-1.24.jar
+[21:34:29] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]DirectionHUD-client-1.24.jar
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]StatusEffectHUD-client-1.27.jar
+[21:34:29] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]StatusEffectHUD-client-1.27.jar
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.7.10_HD_U_C1.jar
+[21:34:29] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.7.10_HD_U_C1.jar
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy PlayerAPI-1.7.10-1.0.jar
+[21:34:29] [main/TRACE] [FML/]: Adding PlayerAPI-1.7.10-1.0.jar to the list of known coremods, it will not be examined again
+[21:34:29] [main/DEBUG] [FML/]: Instantiating coremod class PlayerAPIPlugin
+[21:34:29] [main/DEBUG] [FML/]: The coremod api.player.forge.PlayerAPIPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:34:29] [main/DEBUG] [FML/]: Enqueued coremod PlayerAPIPlugin
+[21:34:29] [main/DEBUG] [FML/]: Examining for coremod candidacy ToggleSneak-(1.7.2)-v3.0.jar
+[21:34:29] [main/DEBUG] [FML/]: Not found coremod data in ToggleSneak-(1.7.2)-v3.0.jar
+[21:34:29] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:34:29] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[21:34:29] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:34:29] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:34:29] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:34:29] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[21:34:29] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:49]: OptiFineForgeTweaker: acceptOptions
+[21:34:29] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:49]: OptiFineForgeTweaker: injectIntoClassLoader
+[21:34:29] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:179]: OptiFine ClassTransformer
+[21:34:29] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:179]: OptiFine URL: file:/C:/Users/Bryce/AppData/Roaming/.minecraft/mods/OptiFine_1.7.10_HD_U_C1.jar
+[21:34:29] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:179]: OptiFine ZIP file: java.util.zip.ZipFile@59906517
+[21:34:29] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:34:29] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[21:34:29] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[21:34:29] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[21:34:29] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:34:30] [main/DEBUG] [FML/]: Injection complete
+[21:34:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[21:34:30] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[21:34:30] [main/DEBUG] [FML/]: Read 527 binary patches
+[21:34:31] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:34:31] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[21:34:31] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[21:34:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:34:31] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[21:34:31] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[21:34:31] [main/DEBUG] [FML/]: Injection complete
+[21:34:31] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[21:34:31] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[21:34:31] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[21:34:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:34:31] [main/DEBUG] [FML/]: Injecting coremod PlayerAPIPlugin {api.player.forge.PlayerAPIPlugin} class transformers
+[21:34:31] [main/TRACE] [FML/]: Registering transformer api.player.forge.PlayerAPITransformer
+[21:34:31] [main/DEBUG] [FML/]: Injection complete
+[21:34:31] [main/DEBUG] [FML/]: Running coremod plugin for PlayerAPIPlugin {api.player.forge.PlayerAPIPlugin}
+[21:34:31] [main/DEBUG] [FML/]: Running coremod plugin PlayerAPIPlugin
+[21:34:31] [main/DEBUG] [FML/]: Coremod plugin class PlayerAPIPlugin run successfully
+[21:34:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:34:31] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[21:34:31] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[21:34:31] [main/DEBUG] [FML/]: Validating minecraft
+[21:34:31] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[21:34:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:34:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:34:31] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:49]: OptiFineForgeTweaker: getLaunchArguments
+[21:34:31] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:34:34] [main/INFO] [STDOUT/]: [net.minecraft.client.main.Main:main:144]: Completely ignored arguments: [--nativeLauncherVersion, 301]
+[21:34:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.005s
+[21:34:35] [Client thread/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.7.10_HD_U_C1, enabling compatibility features
+[21:34:35] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 3/3/16 9:34 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_25, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 65259984 bytes (62 MB) / 184463360 bytes (175 MB) up to 1060372480 bytes (1011 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 361.91' Renderer: 'GeForce GTX 950/PCIe/SSE2'
+[21:34:35] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[21:34:35] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[21:34:35] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[21:34:35] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[21:34:35] [Client thread/DEBUG] [FML/]: File C:\Users\Bryce\AppData\Roaming\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[21:34:35] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, api.player.forge.PlayerAPIContainer]
+[21:34:35] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1558-1.7.10\forge-1.7.10-10.13.4.1558-1.7.10.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar, examining for mod candidates
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Bryce\AppData\Roaming\.minecraft\versions\1.7.10\1.7.10.jar, examining for mod candidates
+[21:34:35] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Bryce\AppData\Roaming\.minecraft\mods\OptiFine_1.7.10_HD_U_C1.jar
+[21:34:35] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Bryce\AppData\Roaming\.minecraft\mods\PlayerAPI-1.7.10-1.0.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[21:34:35] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:34:35] [Client thread/INFO] [FML/]: Searching C:\Users\Bryce\AppData\Roaming\.minecraft\mods for mods
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]ArmorStatusHUD-client-1.28.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]bspkrsCore-universal-6.16.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]DirectionHUD-client-1.24.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]StatusEffectHUD-client-1.27.jar
+[21:34:35] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.7.10_HD_U_C1.jar
+[21:34:35] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker PlayerAPI-1.7.10-1.0.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file ToggleSneak-(1.7.2)-v3.0.jar
+[21:34:35] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10.jar for potential mods
+[21:34:35] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10.jar appears to be missing an mcmod.info file
+[21:34:35] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[21:34:35] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[21:34:35] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[21:34:35] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[21:34:35] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[21:34:35] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[21:34:36] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[21:34:36] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[21:34:36] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[21:34:36] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[21:34:36] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[21:34:36] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[21:34:38] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[21:34:38] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[21:34:38] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[21:34:38] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[21:34:38] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[21:34:38] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[21:34:38] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[21:34:38] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[21:34:38] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[21:34:38] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[21:34:39] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[21:34:39] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file guava-15.0.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container guava-15.0.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file 1.7.10.jar for potential mods
+[21:34:40] [Client thread/DEBUG] [FML/]: The mod container 1.7.10.jar appears to be missing an mcmod.info file
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]ArmorStatusHUD-client-1.28.jar for potential mods
+[21:34:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]ArmorStatusHUD-client-1.28.jar
+[21:34:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.armorstatushud.fml.ArmorStatusHUDMod) - loading
+[21:34:40] [Client thread/TRACE] [ArmorStatusHUD/]: Using mcmod dependency info : [bspkrsCore@[6.15,)] [bspkrsCore@[6.15,)] []
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]bspkrsCore-universal-6.16.jar for potential mods
+[21:34:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]bspkrsCore-universal-6.16.jar
+[21:34:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.bspkrscore.fml.bspkrsCoreMod) - loading
+[21:34:40] [Client thread/TRACE] [bspkrsCore/]: Using mcmod dependency info : [Forge@[10.13.2.1291,)] [Forge@[10.13.2.1291,)] []
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]DirectionHUD-client-1.24.jar for potential mods
+[21:34:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]DirectionHUD-client-1.24.jar
+[21:34:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.directionhud.fml.DirectionHUDMod) - loading
+[21:34:40] [Client thread/TRACE] [DirectionHUD/]: Using mcmod dependency info : [bspkrsCore@[6.15,)] [bspkrsCore@[6.15,)] []
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]StatusEffectHUD-client-1.27.jar for potential mods
+[21:34:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]StatusEffectHUD-client-1.27.jar
+[21:34:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.statuseffecthud.fml.StatusEffectHUDMod) - loading
+[21:34:40] [Client thread/TRACE] [StatusEffectHUD/]: Using mcmod dependency info : [bspkrsCore@[6.15,)] [bspkrsCore@[6.15,)] []
+[21:34:40] [Client thread/DEBUG] [FML/]: Examining file ToggleSneak-(1.7.2)-v3.0.jar for potential mods
+[21:34:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file ToggleSneak-(1.7.2)-v3.0.jar
+[21:34:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (deez.togglesneak.ToggleSneakMod) - loading
+[21:34:40] [Client thread/TRACE] [ToggleSneak/]: Using mcmod dependency info : [PlayerAPI] [PlayerAPI] []
+[21:34:40] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 9 mods to load
+[21:34:40] [Client thread/TRACE] [FML/]: Received a system property request ''
+[21:34:40] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[21:34:40] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:34:40] [Client thread/DEBUG] [ArmorStatusHUD/]: Enabling mod ArmorStatusHUD
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in [1.7.10]ArmorStatusHUD-client-1.28.jar [en_US, cs_CZ]
+[21:34:40] [Client thread/DEBUG] [bspkrsCore/]: Enabling mod bspkrsCore
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in [1.7.10]bspkrsCore-universal-6.16.jar [en_US, cs_CZ, pl_PL, de_DE, ru_RU]
+[21:34:40] [Client thread/DEBUG] [DirectionHUD/]: Enabling mod DirectionHUD
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in [1.7.10]DirectionHUD-client-1.24.jar [en_US]
+[21:34:40] [Client thread/DEBUG] [StatusEffectHUD/]: Enabling mod StatusEffectHUD
+[21:34:40] [Client thread/DEBUG] [FML/]: Found translations in [1.7.10]StatusEffectHUD-client-1.27.jar [en_US, cs_CZ]
+[21:34:40] [Client thread/DEBUG] [ToggleSneak/]: Enabling mod ToggleSneak
+[21:34:40] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[21:34:40] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[21:34:40] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[21:34:40] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[21:34:40] [Client thread/DEBUG] [FML/]: Mod sorting data
+[21:34:40] [Client thread/DEBUG] [FML/]: 	bspkrsCore(bspkrsCore:6.16): [1.7.10]bspkrsCore-universal-6.16.jar ()
+[21:34:40] [Client thread/DEBUG] [FML/]: 	ArmorStatusHUD(ArmorStatusHUD:1.28): [1.7.10]ArmorStatusHUD-client-1.28.jar ()
+[21:34:40] [Client thread/DEBUG] [FML/]: 	DirectionHUD(DirectionHUD:1.24): [1.7.10]DirectionHUD-client-1.24.jar ()
+[21:34:40] [Client thread/DEBUG] [FML/]: 	StatusEffectHUD(StatusEffectHUD:1.27): [1.7.10]StatusEffectHUD-client-1.27.jar ()
+[21:34:40] [Client thread/DEBUG] [FML/]: 	ToggleSneak(ToggleSneak:3.0): ToggleSneak-(1.7.2)-v3.0.jar ()
+[21:34:40] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[21:34:40] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[21:34:40] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.003s
+[21:34:40] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[21:34:41] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[21:34:41] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[21:34:41] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at CLIENT
+[21:34:41] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:34:41] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.595s
+[21:34:41] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[21:34:41] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[21:34:41] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[21:34:41] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.014s
+[21:34:41] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLConstructionEvent to mod PlayerAPI
+[21:34:41] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLConstructionEvent to mod PlayerAPI
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Player API took 0.001s
+[21:34:41] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLConstructionEvent to mod bspkrsCore
+[21:34:41] [Client thread/TRACE] [FML/bspkrsCore]: Mod bspkrsCore is using network checker : Accepting version 6.16
+[21:34:41] [Client thread/TRACE] [FML/bspkrsCore]: Testing mod bspkrsCore to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/bspkrsCore]: The mod bspkrsCore accepts its own version (6.16)
+[21:34:41] [Client thread/DEBUG] [FML/bspkrsCore]: Attempting to inject @SidedProxy classes into bspkrsCore
+[21:34:41] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLConstructionEvent to mod bspkrsCore
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - bspkrsCore took 0.034s
+[21:34:41] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLConstructionEvent to mod ArmorStatusHUD
+[21:34:41] [Client thread/TRACE] [FML/ArmorStatusHUD]: Mod ArmorStatusHUD is using network checker : Accepting version 1.28
+[21:34:41] [Client thread/TRACE] [FML/ArmorStatusHUD]: Testing mod ArmorStatusHUD to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/ArmorStatusHUD]: The mod ArmorStatusHUD accepts its own version (1.28)
+[21:34:41] [Client thread/DEBUG] [FML/ArmorStatusHUD]: Attempting to inject @SidedProxy classes into ArmorStatusHUD
+[21:34:41] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLConstructionEvent to mod ArmorStatusHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - ArmorStatusHUD took 0.007s
+[21:34:41] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event FMLConstructionEvent to mod DirectionHUD
+[21:34:41] [Client thread/TRACE] [FML/DirectionHUD]: Mod DirectionHUD is using network checker : Accepting version 1.24
+[21:34:41] [Client thread/TRACE] [FML/DirectionHUD]: Testing mod DirectionHUD to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/DirectionHUD]: The mod DirectionHUD accepts its own version (1.24)
+[21:34:41] [Client thread/DEBUG] [FML/DirectionHUD]: Attempting to inject @SidedProxy classes into DirectionHUD
+[21:34:41] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event FMLConstructionEvent to mod DirectionHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - DirectionHUD took 0.007s
+[21:34:41] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLConstructionEvent to mod StatusEffectHUD
+[21:34:41] [Client thread/TRACE] [FML/StatusEffectHUD]: Mod StatusEffectHUD is using network checker : Accepting version 1.27
+[21:34:41] [Client thread/TRACE] [FML/StatusEffectHUD]: Testing mod StatusEffectHUD to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/StatusEffectHUD]: The mod StatusEffectHUD accepts its own version (1.27)
+[21:34:41] [Client thread/DEBUG] [FML/StatusEffectHUD]: Attempting to inject @SidedProxy classes into StatusEffectHUD
+[21:34:41] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLConstructionEvent to mod StatusEffectHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - StatusEffectHUD took 0.014s
+[21:34:41] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event FMLConstructionEvent to mod ToggleSneak
+[21:34:41] [Client thread/TRACE] [FML/ToggleSneak]: Mod ToggleSneak is using network checker : Accepting version 3.0
+[21:34:41] [Client thread/TRACE] [FML/ToggleSneak]: Testing mod ToggleSneak to verify it accepts its own version in a remote connection
+[21:34:41] [Client thread/TRACE] [FML/ToggleSneak]: The mod ToggleSneak accepts its own version (3.0)
+[21:34:41] [Client thread/DEBUG] [FML/ToggleSneak]: Attempting to inject @SidedProxy classes into ToggleSneak
+[21:34:41] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event FMLConstructionEvent to mod ToggleSneak
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Construction - ToggleSneak took 0.006s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.680s
+[21:34:41] [Client thread/DEBUG] [FML/]: Mod signature data
+[21:34:41] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[21:34:41] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[21:34:41] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[21:34:41] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		PlayerAPI	(Player API	1.0)	minecraft.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		bspkrsCore	(bspkrsCore	6.16)	[1.7.10]bspkrsCore-universal-6.16.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		ArmorStatusHUD	(ArmorStatusHUD	1.28)	[1.7.10]ArmorStatusHUD-client-1.28.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		DirectionHUD	(DirectionHUD	1.24)	[1.7.10]DirectionHUD-client-1.24.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		StatusEffectHUD	(StatusEffectHUD	1.27)	[1.7.10]StatusEffectHUD-client-1.27.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: 		ToggleSneak	(ToggleSneak	3.0)	ToggleSneak-(1.7.2)-v3.0.jar
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.004s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.006s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ArmorStatusHUD took 0.003s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:bspkrsCore took 0.001s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:DirectionHUD took 0.001s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:StatusEffectHUD took 0.001s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ToggleSneak took 0.003s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - ddd took 0.002s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.031s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.032s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.054s
+[21:34:41] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [ArmorStatusHUD/]: Mod ArmorStatusHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [bspkrsCore/]: Mod bspkrsCore is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [DirectionHUD/]: Mod DirectionHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [StatusEffectHUD/]: Mod StatusEffectHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/DEBUG] [ToggleSneak/]: Mod ToggleSneak is missing a pack.mcmeta file, substituting a dummy one
+[21:34:41] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[21:34:41] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[21:34:41] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[21:34:41] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[21:34:41] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[21:34:41] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[21:34:41] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[21:34:41] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[21:34:41] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[21:34:41] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[21:34:41] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.072s
+[21:34:41] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLPreInitializationEvent to mod PlayerAPI
+[21:34:41] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLPreInitializationEvent to mod PlayerAPI
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Player API took 0.000s
+[21:34:41] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLPreInitializationEvent to mod bspkrsCore
+[21:34:41] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLPreInitializationEvent to mod bspkrsCore
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - bspkrsCore took 0.032s
+[21:34:41] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLPreInitializationEvent to mod ArmorStatusHUD
+[21:34:41] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLPreInitializationEvent to mod ArmorStatusHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - ArmorStatusHUD took 0.014s
+[21:34:41] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event FMLPreInitializationEvent to mod DirectionHUD
+[21:34:41] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event FMLPreInitializationEvent to mod DirectionHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - DirectionHUD took 0.016s
+[21:34:41] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLPreInitializationEvent to mod StatusEffectHUD
+[21:34:41] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLPreInitializationEvent to mod StatusEffectHUD
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - StatusEffectHUD took 0.016s
+[21:34:41] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event FMLPreInitializationEvent to mod ToggleSneak
+[21:34:41] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event FMLPreInitializationEvent to mod ToggleSneak
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - ToggleSneak took 0.014s
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.166s
+[21:34:41] [Client thread/INFO] [FML/]: Applying holder lookups
+[21:34:41] [Client thread/INFO] [FML/]: Holder lookups applied
+[21:34:41] [Client thread/INFO] [FML/]: Injecting itemstacks
+[21:34:41] [Client thread/INFO] [FML/]: Itemstack injection complete
+[21:34:41] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[21:34:41] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:41] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:34:42] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:34:42] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:34:42] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:34:42] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 1.128s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.010s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.011s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.018s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.163s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.012s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.001s
+[21:34:43] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.027s
+[21:34:44] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 1.244s
+[21:34:44] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.903s
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.009s
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.001s
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 2.359s
+[21:34:45] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[21:34:45] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[21:34:45] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[21:34:45] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[21:34:45] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[21:34:45] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[21:34:45] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLInitializationEvent to mod PlayerAPI
+[21:34:45] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLInitializationEvent to mod PlayerAPI
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Player API took 0.000s
+[21:34:45] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLInitializationEvent to mod bspkrsCore
+[21:34:45] [Client thread/INFO] [bspkrsCore/bspkrsCore]: Initializing ModVersionChecker for mod bspkrsCore
+[21:34:45] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLInitializationEvent to mod bspkrsCore
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - bspkrsCore took 0.241s
+[21:34:45] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLInitializationEvent to mod ArmorStatusHUD
+[21:34:45] [Client thread/INFO] [bspkrsCore/ArmorStatusHUD]: Initializing ModVersionChecker for mod ArmorStatusHUD
+[21:34:45] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLInitializationEvent to mod ArmorStatusHUD
+[21:34:45] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - ArmorStatusHUD took 0.204s
+[21:34:45] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event FMLInitializationEvent to mod DirectionHUD
+[21:34:45] [Client thread/INFO] [bspkrsCore/DirectionHUD]: Initializing ModVersionChecker for mod DirectionHUD
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event FMLInitializationEvent to mod DirectionHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - DirectionHUD took 0.217s
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLInitializationEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/INFO] [bspkrsCore/StatusEffectHUD]: Initializing ModVersionChecker for mod StatusEffectHUD
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLInitializationEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - StatusEffectHUD took 0.213s
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event FMLInitializationEvent to mod ToggleSneak
+[21:34:46] [Client thread/INFO] [STDOUT/ToggleSneak]: [api.player.client.ClientPlayerAPI:log:19]: Client Player 1.0 Created
+[21:34:46] [Client thread/INFO] [STDOUT/ToggleSneak]: [api.player.client.ClientPlayerAPI:register:906]: Client Player: registered ToggleSneak
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event FMLInitializationEvent to mod ToggleSneak
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - ToggleSneak took 0.149s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 1.024s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.006s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod PlayerAPI
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event IMCEvent to mod PlayerAPI
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event IMCEvent to mod PlayerAPI
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Player API took 0.001s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod bspkrsCore
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event IMCEvent to mod bspkrsCore
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event IMCEvent to mod bspkrsCore
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - bspkrsCore took 0.003s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ArmorStatusHUD
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event IMCEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event IMCEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ArmorStatusHUD took 0.003s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod DirectionHUD
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event IMCEvent to mod DirectionHUD
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event IMCEvent to mod DirectionHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - DirectionHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod StatusEffectHUD
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event IMCEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event IMCEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - StatusEffectHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ToggleSneak
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event IMCEvent to mod ToggleSneak
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event IMCEvent to mod ToggleSneak
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ToggleSneak took 0.001s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.017s
+[21:34:46] [Client thread/INFO] [FML/]: Injecting itemstacks
+[21:34:46] [Client thread/INFO] [FML/]: Itemstack injection complete
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.187s
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLPostInitializationEvent to mod PlayerAPI
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLPostInitializationEvent to mod PlayerAPI
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Player API took 0.000s
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLPostInitializationEvent to mod bspkrsCore
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLPostInitializationEvent to mod bspkrsCore
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - bspkrsCore took 0.115s
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLPostInitializationEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLPostInitializationEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - ArmorStatusHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event FMLPostInitializationEvent to mod DirectionHUD
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event FMLPostInitializationEvent to mod DirectionHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - DirectionHUD took 0.000s
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLPostInitializationEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLPostInitializationEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - StatusEffectHUD took 0.000s
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event FMLPostInitializationEvent to mod ToggleSneak
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event FMLPostInitializationEvent to mod ToggleSneak
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - ToggleSneak took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.305s
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:34:46] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:34:46] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[21:34:46] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:34:46] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[21:34:46] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[21:34:46] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.015s
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLLoadCompleteEvent to mod PlayerAPI
+[21:34:46] [Client thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLLoadCompleteEvent to mod PlayerAPI
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Player API took 0.000s
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLLoadCompleteEvent to mod bspkrsCore
+[21:34:46] [Client thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLLoadCompleteEvent to mod bspkrsCore
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - bspkrsCore took 0.000s
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLLoadCompleteEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLLoadCompleteEvent to mod ArmorStatusHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - ArmorStatusHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sending event FMLLoadCompleteEvent to mod DirectionHUD
+[21:34:46] [Client thread/TRACE] [DirectionHUD/DirectionHUD]: Sent event FMLLoadCompleteEvent to mod DirectionHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - DirectionHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLLoadCompleteEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLLoadCompleteEvent to mod StatusEffectHUD
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - StatusEffectHUD took 0.001s
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sending event FMLLoadCompleteEvent to mod ToggleSneak
+[21:34:46] [Client thread/TRACE] [ToggleSneak/ToggleSneak]: Sent event FMLLoadCompleteEvent to mod ToggleSneak
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - ToggleSneak took 0.001s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.020s
+[21:34:46] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[21:34:46] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[21:34:46] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[21:34:46] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 9 mods
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.006s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ArmorStatusHUD took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:bspkrsCore took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:DirectionHUD took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:StatusEffectHUD took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ToggleSneak took 0.000s
+[21:34:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - ddd took 0.002s
+[21:34:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:34:49] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:34:49] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:34:49] [Thread-11/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:34:49] [Thread-11/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:34:49] [Thread-11/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:34:49] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 2.546s
+[21:34:49] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 2.546s
+[21:34:49] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 2.558s
+[21:34:49] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [ArmorStatusHUD/]: Mod ArmorStatusHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [bspkrsCore/]: Mod bspkrsCore is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [DirectionHUD/]: Mod DirectionHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [StatusEffectHUD/]: Mod StatusEffectHUD is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/DEBUG] [ToggleSneak/]: Mod ToggleSneak is missing a pack.mcmeta file, substituting a dummy one
+[21:34:49] [Client thread/INFO] [bspkrsCore/]: Enabling Main Menu Mob render ticker
+[21:34:49] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 14.057s
+[21:34:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:34:50] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 0.129s
+[21:35:00] [Client thread/INFO] [bspkrsCore/]: Disabling Main Menu Mob render ticker
+[21:35:01] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:35:01] [Netty Client IO #1/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:35:10] [Netty Client IO #5/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:35:10] [Netty Client IO #6/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:35:14] [Netty Client IO #1/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:35:14] [Netty Client IO #2/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:36:07] [Netty Client IO #5/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:36:07] [Netty Client IO #4/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:36:09] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:36:09] [Netty Client IO #7/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:54:42] [Netty Client IO #2/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[21:54:42] [Netty Client IO #3/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[22:06:54] [Netty Client IO #6/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[22:06:54] [Netty Client IO #5/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[22:11:50] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[22:11:50] [Netty Client IO #1/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge, PlayerAPI, ArmorStatusHUD, bspkrsCore, DirectionHUD, StatusEffectHUD, ToggleSneak] at SERVER
+[22:11:51] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:11:51] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:11:51] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:11:51] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

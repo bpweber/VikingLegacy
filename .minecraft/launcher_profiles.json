@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "Forge": {
+      "name": "Forge",
+      "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10"
+    },
+    "69bp69": {
+      "name": "69bp69",
+      "lastVersionId": "1.7.10-Forge10.13.4.1558-1.7.10"
+    }
+  },
+  "selectedProfile": "69bp69",
+  "clientToken": "3ca2b7dd-13fa-4f25-b7fb-81b59b629f92",
+  "authenticationDatabase": {
+    "7ae85d2737f94977867e2180ad823b82": {
+      "displayName": "69bp69",
+      "accessToken": "3cf8095f94004e3c8f886e0bfc2ad356",
+      "userid": "6420f62a489c45e59a60791890aced67",
+      "uuid": "7ae85d27-37f9-4977-867e-2180ad823b82",
+      "username": "bpwebermc@gmail.com"
+    },
+    "7e50d1f38d1f42b08d35783b1cd58d9b": {
+      "displayName": "bpweber",
+      "accessToken": "ee5f52cc0fec47588b9c925ec028b8d0",
+      "userid": "31426022",
+      "uuid": "7e50d1f3-8d1f-42b0-8d35-783b1cd58d9b",
+      "username": "bpweber"
+    }
+  },
+  "selectedUser": "7ae85d2737f94977867e2180ad823b82",
+  "launcherVersion": {
+    "name": "1.6.61",
+    "format": 18
+  }
+}
