@@ -1,4 +1,3 @@
 # VikingLegacy
-An MMORPG built for Minecraft (last updated 2017)
-To run, download repo and run the start.bat if on Windows, uses Minecraft vsersion 1.7.10
+An MMORPG built for Minecraft (last updated 2017). To run, download repo and run the start.bat if on Windows; Minecraft version 1.7.10
 
