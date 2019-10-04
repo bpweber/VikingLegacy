@@ -1,3 +1,3 @@
 # VikingLegacy
 ## An MMORPG in Minecraft
-To run, download repo and run the start.bat if on Windows; Minecraft version 1.7.10. .minecraft contains client mods and resource pack but is not needed.
+Download and run start.bat, use client version 1.7.10. Set up for a localhost connection.
